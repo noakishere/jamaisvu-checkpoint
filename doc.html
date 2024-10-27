@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamais Vu Documentation Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .gallery-section {
+            margin-bottom: 40px;
+        }
+        .gallery-section h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: calc(33.333% - 10px);
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #888;
+        }
+        nav {
+        margin-top: 20px;
+        text-align: center;
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      nav a {
+        display: inline-block;
+        margin: 0 15px;
+        color: #4caf50;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Jamais Vu Project Documentation Gallery</h1>
+        <p>Explore the visual documentation of different components of the project</p>
+    <nav>
+        <a href="main.html">Home</a>
+        <a href="doc.html">Documentation</a>
+    </nav>
+    
+
+    <section class="gallery-section" id="webapp">
+        <h2>Web Application</h2>
+        <div class="gallery">
+            <img src="images/webapp_1.jpg" alt="Web App Interface">
+            <img src="images/webapp_2.jpg" alt="Web App Sound Recording">
+            <img src="images/webapp_3.jpg" alt="Web App User Upload">
+        </div>
+    </section>
+
+    <section class="gallery-section" id="installation">
+        <h2>Installation</h2>
+        <div class="gallery">
+            <img src="images/installation_1.jpg" alt="Installation Space">
+            <img src="images/installation_2.jpg" alt="Suspended Fabric Sheets">
+            <img src="images/installation_3.jpg" alt="Projection Setup">
+        </div>
+    </section>
+
+    <section class="gallery-section" id="visuals">
+        <h2>Visuals</h2>
+        <div class="gallery">
+            <img src="images/visuals_1.jpg" alt="Audio Reactive Visuals">
+            <img src="images/visuals_2.jpg" alt="TouchDesigner Patch">
+            <img src="images/visuals_3.jpg" alt="Visual Projections on Fabric">
+        </div>
+    </section>
+
+    <section class="gallery-section" id="audio">
+        <h2>Audio</h2>
+        <div class="gallery">
+            <img src="images/audio_1.jpg" alt="Audio Setup for Installation">
+            <img src="images/audio_2.jpg" alt="Max MSP Audio Patch">
+            <img src="images/audio_3.jpg" alt="Speakers Setup in Installation Space">
+        </div>
+    </section>
+
+    <section class="gallery-section" id="device">
+        <h2>Device Design</h2>
+        <div class="gallery">
+            <img src="images/device_1.jpg" alt="Recording Device Prototype">
+            <img src="images/device_2.jpg" alt="Microcontroller Setup">
+            <img src="images/device_3.jpg" alt="Device in Use">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jamais Vu Project Team. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
