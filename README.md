@@ -1,5 +1,7 @@
 # Jamais Vu: Archiving Urban Soundscapes
 
+![Excited Kermit](https://media.giphy.com/media/DpB9NBjny7jF1pd0yt2/giphy.gif)
+
 ### Concordia University - CART 461: Tangible Media Studio
 
 **Team Members:** Lydia, Azhar, Louis, Noah, Kamyar, Rebecca  
