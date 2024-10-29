@@ -51,11 +51,11 @@ The project takes inspiration from theories like **Hauntology** (Mark Fisher) an
 ## Team Responsibilities
 
 - **Installation Design**: Lydia, Azhar, Louis, Noah, Kamyar, Rebecca
-- **Device Development**: Azhar, Kamyar
-- **App Development**: Louis, Kamyar
-- **Machine Learning**: Kamyar, Louis
+- **Device Development and Design**: Azhar, Rebecca
+- **App Development**: Louis
+- **Machine Learning and Max/MSP programming**: Kamyar
 - **Visuals**: Noah
-- **Sound Design**: Lydia
+- **Sound Design and Max/MSP**: Lydia
 
 ## License
 
