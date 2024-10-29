@@ -4,11 +4,11 @@ This project was created using the particle firmware. It is currently being run 
 
 # Parts being used
 
- .Particle Argon
- .PDM Microphone
- .Red Led
- .White Led
- .Button
+- **Particle Argon**
+- **PDM Microphone**
+- **Red LED**
+- **White LED**
+- **Button**
 
  # Setup
 
